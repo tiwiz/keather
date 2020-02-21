@@ -20,25 +20,25 @@ kotlin {
 
     sourceSets["commonMain"].dependencies {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-common")
-        implementation("io.ktor:ktor-client-core:1.3.0")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.3-native-mt")
-        implementation("io.ktor:ktor-client-serialization:1.3.0")
-        implementation("io.ktor:ktor-client-json:1.3.0")
+        implementation("io.ktor:ktor-client-core:1.3.0-rc3-1.3.70-eap-42")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.3-1.3.70-eap-42")
+        implementation("io.ktor:ktor-client-serialization:1.3.0-rc3-1.3.70-eap-42")
+        implementation("io.ktor:ktor-client-json:1.3.0-rc3-1.3.70-eap-42")
     }
 
     sourceSets["androidMain"].dependencies {
         implementation("org.jetbrains.kotlin:kotlin-stdlib")
-        implementation("io.ktor:ktor-client-android:1.3.0")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3")
-        implementation("io.ktor:ktor-client-serialization-jvm:1.3.0")
-        implementation("io.ktor:ktor-client-json-jvm:1.3.0")
+        implementation("io.ktor:ktor-client-android:1.3.0-rc3-1.3.70-eap-42")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3-1.3.70-eap-42")
+        implementation("io.ktor:ktor-client-serialization-jvm:1.3.0-rc3-1.3.70-eap-42")
+        implementation("io.ktor:ktor-client-json-jvm:1.3.0-rc3-1.3.70-eap-42")
     }
 
     sourceSets["iosMain"].dependencies {
-        implementation("io.ktor:ktor-client-ios:1.3.0")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native:1.3.3-native-mt")
-        implementation("io.ktor:ktor-client-serialization-native:1.3.0")
-        implementation("io.ktor:ktor-client-json-native:1.3.0")
+        implementation("io.ktor:ktor-client-ios:1.3.0-rc3-1.3.70-eap-42")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native:1.3.3-1.3.70-eap-42")
+        implementation("io.ktor:ktor-client-serialization-native:1.3.0-rc3-1.3.70-eap-42")
+        implementation("io.ktor:ktor-client-json-native:1.3.0-rc3-1.3.70-eap-42")
     }
 
     cocoapods {
