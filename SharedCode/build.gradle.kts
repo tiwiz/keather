@@ -24,6 +24,7 @@ kotlin {
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-serialization:1.3.0-rc3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-json:1.3.0-rc3-1.3.70-eap-42")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.14.0-1.3.70-eap-134")
     }
 
     sourceSets["androidMain"].dependencies {
@@ -32,6 +33,7 @@ kotlin {
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-serialization-jvm:1.3.0-rc3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-json-jvm:1.3.0-rc3-1.3.70-eap-42")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.14.0-1.3.70-eap-134")
     }
 
     sourceSets["iosMain"].dependencies {
@@ -39,6 +41,7 @@ kotlin {
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native:1.3.3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-serialization-native:1.3.0-rc3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-json-native:1.3.0-rc3-1.3.70-eap-42")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime-native:0.14.0-1.3.70-eap-134")
     }
 
     cocoapods {
