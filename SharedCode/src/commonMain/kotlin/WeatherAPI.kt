@@ -5,6 +5,7 @@ import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.features.json.serializer.KotlinxSerializer
 import io.ktor.client.request.get
 import io.ktor.client.request.url
+import io.rob.keather.models.WeatherResult
 import kotlinx.serialization.UnstableDefault
 import kotlinx.serialization.json.Json
 

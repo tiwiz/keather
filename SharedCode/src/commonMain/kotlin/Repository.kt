@@ -1,5 +1,6 @@
 package io.rob.keather
 
+import io.rob.keather.models.WeatherResult
 import kotlinx.coroutines.launch
 import kotlinx.serialization.UnstableDefault
 

@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.jetbrains.handson.mpp.android"
-        minSdkVersion(14)
+        minSdkVersion(21)
         targetSdkVersion(29)
         versionCode = 1
         versionName = "1.0"
