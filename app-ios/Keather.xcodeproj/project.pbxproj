@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62A9E6D323FEEF240098C273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9E6D223FEEF240098C273 /* AppDelegate.swift */; };
+		62A9E6D523FEEF240098C273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9E6D423FEEF240098C273 /* SceneDelegate.swift */; };
+		62A9E6D723FEEF240098C273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9E6D623FEEF240098C273 /* ContentView.swift */; };
+		62A9E6D923FEEF260098C273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A9E6D823FEEF260098C273 /* Assets.xcassets */; };
+		62A9E6DC23FEEF260098C273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A9E6DB23FEEF260098C273 /* Preview Assets.xcassets */; };
+		62A9E6DF23FEEF260098C273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A9E6DD23FEEF260098C273 /* LaunchScreen.storyboard */; };
+		B1902F3C9971A3512CE1B913 /* Pods_Keather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABBBE80D67900BA4F820B7E /* Pods_Keather.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62A9E6E623FEEF260098C273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A9E6C723FEEF240098C273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A9E6CE23FEEF240098C273;
+			remoteInfo = Keather;
+		};
+		62A9E6F123FEEF260098C273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A9E6C723FEEF240098C273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A9E6CE23FEEF240098C273;
+			remoteInfo = Keather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5CE439344D6607303D77C9 /* Pods-Keather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keather.release.xcconfig"; path = "Target Support Files/Pods-Keather/Pods-Keather.release.xcconfig"; sourceTree = "<group>"; };
+		56C04F46FADE29B91DA3EE62 /* Pods-Keather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keather.debug.xcconfig"; path = "Target Support Files/Pods-Keather/Pods-Keather.debug.xcconfig"; sourceTree = "<group>"; };
+		62A9E6CF23FEEF240098C273 /* Keather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A9E6D223FEEF240098C273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62A9E6D423FEEF240098C273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62A9E6D623FEEF240098C273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62A9E6D823FEEF260098C273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62A9E6DB23FEEF260098C273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62A9E6DE23FEEF260098C273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62A9E6E023FEEF260098C273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A9E6E523FEEF260098C273 /* KeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A9E6F023FEEF260098C273 /* KeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABBBE80D67900BA4F820B7E /* Pods_Keather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62A9E6CC23FEEF240098C273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1902F3C9971A3512CE1B913 /* Pods_Keather.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9E6E223FEEF260098C273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9E6ED23FEEF260098C273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D752765D4FDF3296F7B4C49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C04F46FADE29B91DA3EE62 /* Pods-Keather.debug.xcconfig */,
+				1A5CE439344D6607303D77C9 /* Pods-Keather.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62A9E6C623FEEF240098C273 = {
+			isa = PBXGroup;
+			children = (
+				62A9E6D123FEEF240098C273 /* Keather */,
+				62A9E6D023FEEF240098C273 /* Products */,
+				5D752765D4FDF3296F7B4C49 /* Pods */,
+				B9A5C79E2BE23E57EF53813B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62A9E6D023FEEF240098C273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62A9E6CF23FEEF240098C273 /* Keather.app */,
+				62A9E6E523FEEF260098C273 /* KeatherTests.xctest */,
+				62A9E6F023FEEF260098C273 /* KeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62A9E6D123FEEF240098C273 /* Keather */ = {
+			isa = PBXGroup;
+			children = (
+				62A9E6D223FEEF240098C273 /* AppDelegate.swift */,
+				62A9E6D423FEEF240098C273 /* SceneDelegate.swift */,
+				62A9E6D623FEEF240098C273 /* ContentView.swift */,
+				62A9E6D823FEEF260098C273 /* Assets.xcassets */,
+				62A9E6DD23FEEF260098C273 /* LaunchScreen.storyboard */,
+				62A9E6E023FEEF260098C273 /* Info.plist */,
+				62A9E6DA23FEEF260098C273 /* Preview Content */,
+			);
+			path = Keather;
+			sourceTree = "<group>";
+		};
+		62A9E6DA23FEEF260098C273 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62A9E6DB23FEEF260098C273 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9A5C79E2BE23E57EF53813B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABBBE80D67900BA4F820B7E /* Pods_Keather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62A9E6CE23FEEF240098C273 /* Keather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A9E6F923FEEF260098C273 /* Build configuration list for PBXNativeTarget "Keather" */;
+			buildPhases = (
+				BFCE3130675BC0E3BEFB6815 /* [CP] Check Pods Manifest.lock */,
+				62A9E6CB23FEEF240098C273 /* Sources */,
+				62A9E6CC23FEEF240098C273 /* Frameworks */,
+				62A9E6CD23FEEF240098C273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keather;
+			productName = Keather;
+			productReference = 62A9E6CF23FEEF240098C273 /* Keather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62A9E6E423FEEF260098C273 /* KeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A9E6FC23FEEF260098C273 /* Build configuration list for PBXNativeTarget "KeatherTests" */;
+			buildPhases = (
+				62A9E6E123FEEF260098C273 /* Sources */,
+				62A9E6E223FEEF260098C273 /* Frameworks */,
+				62A9E6E323FEEF260098C273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A9E6E723FEEF260098C273 /* PBXTargetDependency */,
+			);
+			name = KeatherTests;
+			productName = KeatherTests;
+			productReference = 62A9E6E523FEEF260098C273 /* KeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62A9E6EF23FEEF260098C273 /* KeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A9E6FF23FEEF260098C273 /* Build configuration list for PBXNativeTarget "KeatherUITests" */;
+			buildPhases = (
+				62A9E6EC23FEEF260098C273 /* Sources */,
+				62A9E6ED23FEEF260098C273 /* Frameworks */,
+				62A9E6EE23FEEF260098C273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A9E6F223FEEF260098C273 /* PBXTargetDependency */,
+			);
+			name = KeatherUITests;
+			productName = KeatherUITests;
+			productReference = 62A9E6F023FEEF260098C273 /* KeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62A9E6C723FEEF240098C273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Roberto Orgiu";
+				TargetAttributes = {
+					62A9E6CE23FEEF240098C273 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					62A9E6E423FEEF260098C273 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 62A9E6CE23FEEF240098C273;
+					};
+					62A9E6EF23FEEF260098C273 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 62A9E6CE23FEEF240098C273;
+					};
+				};
+			};
+			buildConfigurationList = 62A9E6CA23FEEF240098C273 /* Build configuration list for PBXProject "Keather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62A9E6C623FEEF240098C273;
+			productRefGroup = 62A9E6D023FEEF240098C273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62A9E6CE23FEEF240098C273 /* Keather */,
+				62A9E6E423FEEF260098C273 /* KeatherTests */,
+				62A9E6EF23FEEF260098C273 /* KeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62A9E6CD23FEEF240098C273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A9E6DF23FEEF260098C273 /* LaunchScreen.storyboard in Resources */,
+				62A9E6DC23FEEF260098C273 /* Preview Assets.xcassets in Resources */,
+				62A9E6D923FEEF260098C273 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9E6E323FEEF260098C273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9E6EE23FEEF260098C273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFCE3130675BC0E3BEFB6815 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62A9E6CB23FEEF240098C273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A9E6D323FEEF240098C273 /* AppDelegate.swift in Sources */,
+				62A9E6D523FEEF240098C273 /* SceneDelegate.swift in Sources */,
+				62A9E6D723FEEF240098C273 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9E6E123FEEF260098C273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9E6EC23FEEF260098C273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62A9E6E723FEEF260098C273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A9E6CE23FEEF240098C273 /* Keather */;
+			targetProxy = 62A9E6E623FEEF260098C273 /* PBXContainerItemProxy */;
+		};
+		62A9E6F223FEEF260098C273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A9E6CE23FEEF240098C273 /* Keather */;
+			targetProxy = 62A9E6F123FEEF260098C273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62A9E6DD23FEEF260098C273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62A9E6DE23FEEF260098C273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62A9E6F723FEEF260098C273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62A9E6F823FEEF260098C273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62A9E6FA23FEEF260098C273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C04F46FADE29B91DA3EE62 /* Pods-Keather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Keather/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Keather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rob.ios.Keather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62A9E6FB23FEEF260098C273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5CE439344D6607303D77C9 /* Pods-Keather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Keather/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Keather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rob.ios.Keather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62A9E6FD23FEEF260098C273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rob.ios.KeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keather.app/Keather";
+			};
+			name = Debug;
+		};
+		62A9E6FE23FEEF260098C273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rob.ios.KeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keather.app/Keather";
+			};
+			name = Release;
+		};
+		62A9E70023FEEF260098C273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rob.ios.KeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Keather;
+			};
+			name = Debug;
+		};
+		62A9E70123FEEF260098C273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.rob.ios.KeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Keather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62A9E6CA23FEEF240098C273 /* Build configuration list for PBXProject "Keather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A9E6F723FEEF260098C273 /* Debug */,
+				62A9E6F823FEEF260098C273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A9E6F923FEEF260098C273 /* Build configuration list for PBXNativeTarget "Keather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A9E6FA23FEEF260098C273 /* Debug */,
+				62A9E6FB23FEEF260098C273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A9E6FC23FEEF260098C273 /* Build configuration list for PBXNativeTarget "KeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A9E6FD23FEEF260098C273 /* Debug */,
+				62A9E6FE23FEEF260098C273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A9E6FF23FEEF260098C273 /* Build configuration list for PBXNativeTarget "KeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A9E70023FEEF260098C273 /* Debug */,
+				62A9E70123FEEF260098C273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62A9E6C723FEEF240098C273 /* Project object */;
+}

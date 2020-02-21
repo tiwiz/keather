@@ -1,0 +1,6 @@
+framework module Pods_Keather {
+  umbrella header "Pods-Keather-umbrella.h"
+
+  export *
+  module * { export * }
+}
