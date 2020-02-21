@@ -19,7 +19,7 @@ kotlin {
     jvm("android")
 
     sourceSets["commonMain"].dependencies {
-        implementation("org.jetbrains.kotlin:kotlin-stdlib-common")
+        implementation(kotlin("stdlib-common"))
         implementation("io.ktor:ktor-client-core:1.3.0-rc3-1.3.70-eap-42")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-serialization:1.3.0-rc3-1.3.70-eap-42")
@@ -28,7 +28,7 @@ kotlin {
     }
 
     sourceSets["androidMain"].dependencies {
-        implementation("org.jetbrains.kotlin:kotlin-stdlib")
+        implementation(kotlin("stdlib-jdk7"))
         implementation("io.ktor:ktor-client-android:1.3.0-rc3-1.3.70-eap-42")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3-1.3.70-eap-42")
         implementation("io.ktor:ktor-client-serialization-jvm:1.3.0-rc3-1.3.70-eap-42")
