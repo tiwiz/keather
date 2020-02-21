@@ -5,7 +5,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlin.coroutines.CoroutineContext
 
-internal class Scope(private val context: CoroutineContext = MainDispatcher()) : CoroutineScope {
+internal class Scope(private val context: CoroutineContext = Dispatchers.Main) : CoroutineScope {
 
     override val coroutineContext: CoroutineContext
         get() = context + job
